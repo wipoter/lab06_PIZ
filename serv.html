@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="black">
+<div style="text-align: center">
+    <label for="Data" style="color: whitesmoke">Recieved data</label><br>
+    <textarea name="Data" id="Data"></textarea><br>
+</div>
+<script>
+    let q = window.location.search;
+    let param = new URLSearchParams(q);
+    console.log(param.get("Login"));
+    console.log(param.get("Password"));
+    console.log(param.get("Gender"));
+    console.log(param.get("time"));
+    let variable = param.get("Login")
+    document.getElementById("Data").value += variable;
+    variable = param.get("Password");
+    document.getElementById("Data").value += variable;
+    variable = param.get("Gender");
+    document.getElementById("Data").value += variable;
+    variable = param.get("timer");
+    document.getElementById("Data").value += variable;
+    variable = param.get("hid");
+    document.getElementById("Data").value += variable;
+    variable = param.get("TextArea");
+    document.getElementById("Data").value += variable;
+</script>
+</body>
+</html>

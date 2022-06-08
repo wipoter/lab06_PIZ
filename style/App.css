@@ -1,0 +1,102 @@
+
+#root{
+
+}
+.App{
+    background: #41058E;
+    width: auto;
+    height: 800px;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid;
+
+}
+label{
+    color: whitesmoke;
+}
+.ClassG{
+    width: 50px;
+    height: 50px;
+    background-color: #769655;
+    text-align: left;
+    vertical-align: top;
+    color: #eeeed2;
+}
+.ClassW{
+    width: 50px;
+    height: 50px;
+    background-color: #eeeed2;
+    text-align: left;
+    vertical-align: top;
+    color: #769655;
+}
+#1{
+    text-align: left;
+    vertical-align: top;
+    color: #769655;
+}
+.divClassTop{
+    text-align: left;
+    vertical-align: top;
+    color: #eeeed2;
+}
+.divClassBottom{
+    text-align: right;
+    margin-top: 12px;
+    margin-left: 5px;
+    color: #eeeed2;
+}
+.divClassTopBlack{
+    position: absolute;
+    margin-top: -55px;
+    margin-right: 40px;
+    color: #769655;
+}
+.divClassTopWhite{
+    position: absolute;
+    margin-top: -55px;
+    margin-right: 40px;
+    color: #eeeed2;
+}
+.divClassBottomBlack{
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 44px;
+    color: #769655;
+}
+.divClassBottomWhite{
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 44px;
+    color: #eeeed2;
+}
+.divClassBottomBlackF{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 44px;
+    color: #769655;
+}
+.divClassBottomWhiteF{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 44px;
+    color: #eeeed2;
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+h1, h2{
+    color: white;
+}
+.App{
+
+}
+a{
+    color: yellow;
+}
+th{
+}
